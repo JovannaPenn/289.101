@@ -16,7 +16,7 @@
     <li>make the text for list items 1 and 2 violet using a descendant selector</li>    
         <li>make the text for list items 1 and 2 violet using a descendant selector</li>
         </ol>
-   
+    <style> ol, li {color: violet;} </style>
             <div> 
         <p>make this text red using a child selector</p>
     </div>
@@ -36,11 +36,18 @@
                 font-style: italic;
             }
         </style>
+         
+        <style> 
+            .notimportant {
+                color: orange;
+            }
+        
+        </style>
         
     <ul>
-    <li>make this text orange using a general sibling selector; <p class= "important">and this phrase pink by combining 2 types of selectors</p></li>
+        <li class= "notimportant">make this text orange using a general sibling selector</li> <p class= "important">and this phrase pink by combining 2 types of selectors</p>
     </ul>
-    
+       
     </body>
 
 
