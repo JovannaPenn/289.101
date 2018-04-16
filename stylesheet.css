@@ -6,16 +6,21 @@
    overflow: hidden;
 }
 
+body{
+    background-color: aliceblue;
+}
+
 
 .menu{
-    background-color: white;
+    background-color: aliceblue;
     height: 62px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
     max-width: 920px;
-    float: left;
+    float: right;
     color: black;
+    font-style: italic;
 }
 
 
@@ -23,9 +28,19 @@
     margin-left: auto;
     margin-right: auto;
     float:right;
-    
+    text-align: center;
+    position: relative;
 }
 
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: dimgray;
+    font-family: cursive;
+    font-size: 60px
+}
 
 .menu ol{
     padding: 18px 10px;
@@ -37,5 +52,19 @@
     float:left;
     font-family: sans-serif;
     padding: 6px 20px;
-    color: white;
+    color: black;
+}
+
+.photos2016{
+width: 600px;
+height: 600px;
+float: left;
+}
+
+.centered2{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: dimgray;
+    font-family: cursive;
+    font-size: 60px
 }
