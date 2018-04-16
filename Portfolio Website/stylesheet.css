@@ -7,12 +7,12 @@
 }
 
 body{
-    background-color: aliceblue;
+    background-color: white;
 }
 
 
 .menu{
-    background-color: aliceblue;
+    background-color: white;
     height: 62px;
     margin-left: auto;
     margin-right: auto;
@@ -37,7 +37,7 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: dimgray;
+    color: black;
     font-family: cursive;
     font-size: 60px
 }
@@ -56,16 +56,15 @@ body{
 }
 
 .photos2017{
-width: 550px;
-height: 550px;
+width: 580px;
+height: 580px;
 float: left;
 }
 
 .centered2{
     position: absolute;
     bottom: 1%;
-    left: 25%;
-    transform: translate(-50%, -50%);
+    left: 10%;
     color: black;
     font-family: cursive;
     font-size: 60px
@@ -73,7 +72,16 @@ float: left;
 
 
 .photo2018{
- width: 550px;
-height: 550px;
+ width: 580px;
+height: 580px;
     float:right;
+}
+
+.centered3{
+    position: absolute;
+    bottom: 1%;
+    right: 10%;
+    color: black;
+    font-family: cursive;
+    font-size: 60px 
 }
