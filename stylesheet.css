@@ -1,4 +1,4 @@
-.logoarea{
+.Menu area{
     max-width:920px;
     margin-left: auto;
     margin-right: auto;
@@ -22,5 +22,20 @@
 .companyname{
     margin-left: auto;
     margin-right: auto;
+    float:right;
     
+}
+
+
+.menu ol{
+    padding: 18px 10px;
+}
+
+.menu li{
+    border-right: 1px solid #D4B364;
+    display: block;
+    float:left;
+    font-family: sans-serif;
+    padding: 6px 20px;
+    color: white;
 }
