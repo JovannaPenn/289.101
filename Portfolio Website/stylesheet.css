@@ -30,6 +30,7 @@ body{
     float:right;
     text-align: center;
     position: relative;
+    float: left
 }
 
 .centered{
@@ -59,6 +60,7 @@ body{
 width: 580px;
 height: 580px;
 float: left;
+    margin-left: auto;
 }
 
 .centered2{
@@ -74,13 +76,15 @@ float: left;
 .photo2018{
  width: 580px;
 height: 580px;
-    float:right;
+    margin-left: auto;
+    
+    float:left;
 }
 
 .centered3{
     position: absolute;
     bottom: 1%;
-    right: 10%;
+    right: 20%;
     color: black;
     font-family: cursive;
     font-size: 60px 
@@ -88,10 +92,20 @@ height: 580px;
 
 
 .container{
-    margin-top: 200px;
+    margin-top: 180px;
     margin-left: auto;
     margin-right: auto;
     width: 900px;
-    float: left;
+    float:left;
     
+}
+
+.abouttitle{
+    position: absolute;
+      top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-family: cursive;
+    font-size: 50px
 }
