@@ -3,6 +3,7 @@
     height: 100px;
     margin-top: 30px;
    overflow: hidden;
+    
 }
 
 body{
@@ -97,8 +98,8 @@ height: 580px;
 
 
 .container{
-    margin-top: 180px;
-    margin-left: auto;
+    margin-top: 200px;
+    margin-left: 400px;
     margin-right: auto;
     width: 900px;
     float:left;
