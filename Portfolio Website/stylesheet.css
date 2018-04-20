@@ -124,3 +124,14 @@ height: 580px;
     font-family:monospace
         
 }
+
+.contactdetails{
+    position: absolute;
+      top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    color:darkslateblue;
+    font-family: cursive;
+    font-size: 70px
+
+}
