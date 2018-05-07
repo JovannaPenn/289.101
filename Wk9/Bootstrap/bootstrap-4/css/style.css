@@ -1,0 +1,23 @@
+body{
+    /* background- color: red;*/
+}
+
+.blue{
+    background-color: cornflowerblue;
+    height: 40px;
+}
+
+.green{
+    background-color: chartreuse;
+    height: 150px;
+}
+
+.orange{
+    background-color: orange;
+    height: 150px;
+}
+
+.grey{
+    background-color: grey;
+    height: 150px;
+}
